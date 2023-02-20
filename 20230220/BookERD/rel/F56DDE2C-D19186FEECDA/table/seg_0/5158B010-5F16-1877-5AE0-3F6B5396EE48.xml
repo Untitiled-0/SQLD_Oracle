@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5158B010-5F16-1877-5AE0-3F6B5396EE48" schemaObject="38B7FD87-96BB-5D40-E121-491015E24F36" name="ORDERS">
+<sourceConnName>MD_MADANG</sourceConnName>
+<sourceObjSchema>MADANG</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDERID" id="154E52EB-F3C0-3D21-134F-4DE0E5D8CCB5">
+<sourceConnName>MD_MADANG</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERID</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTID" id="A06F876E-01BE-7FE9-4246-3A21C1539B3C">
+<sourceConnName>MD_MADANG</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTID</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="259CD85F-B404-7057-AD06-18CAD9F1CE4E" referredColumn="059DD913-8009-8582-7CC2-7C883142F2E8"/>
+</associations>
+</Column>
+<Column name="BOOKID" id="459E0AF7-5DC6-5121-5699-0FB36F629951">
+<sourceConnName>MD_MADANG</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>BOOKID</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7339CE23-DA48-42A5-D7F1-C0A21B88D407" referredColumn="AE10AC17-C38D-DF0F-F4DB-E4D2504EBB20"/>
+</associations>
+</Column>
+<Column name="SALEPRICE" id="FB5679EC-6A37-C2C1-5D77-5EBD54E80013">
+<sourceConnName>MD_MADANG</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SALEPRICE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERDATE" id="8FDF5126-F331-B8C3-B0DC-6EFF0019F927">
+<sourceConnName>MD_MADANG</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERDATE</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFA96AD0-5B08-C28A-DCCC-F8FC9387055E" schemaObject="38B7FD87-96BB-5D40-E121-491015E24F36" name="ORDERS_PK">
+<sourceConnName>MD_MADANG</sourceConnName>
+<sourceObjSchema>MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007548</sourceObjName>
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="154E52EB-F3C0-3D21-134F-4DE0E5D8CCB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4536AC6D-461C-7D64-BF39-C875E5212D51" name="SYS_C007549">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A06F876E-01BE-7FE9-4246-3A21C1539B3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA4851DC-5E35-E7F9-042E-2BFC6CBA5115" name="SYS_C007550">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:12 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="459E0AF7-5DC6-5121-5699-0FB36F629951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

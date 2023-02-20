@@ -167,6 +167,129 @@ WHERE
             b1.publisher = b1.publisher
     );
                
+               
+-- 대한민국에 거주하는 고객에게 판매한 도시의 총 판매액을 보이시오
+SELECT
+    SUM(saleprice)
+FROM
+         orders od
+    INNER JOIN customer cs ON cs.custid = od.custid
+                              AND TRIM(address) LIKE '%대한민국%';
+               
+-- 중첩
+SELECT
+    SUM(saleprice)
+FROM
+    orders od
+WHERE
+    custid IN (
+        SELECT
+            custid
+        FROM
+            customer
+        WHERE
+            address LIKE '%대한민국%'
+    );
+                            
+                            
+-- 대한민국에 거주하지 않는 고객에게 판매한 도서의총 판매액을 보이시오
+
+SELECT
+    SUM(saleprice)
+FROM
+    orders od
+WHERE
+    custid NOT IN (
+        SELECT
+            custid
+        FROM
+            customer
+        WHERE
+            address LIKE '%대한민국%'
+    );
+
+SELECT
+    SUM(saleprice)
+FROM
+    orders od
+WHERE
+    EXISTS (
+        SELECT
+            *
+        FROM
+            customer cs
+        WHERE
+                cs.custid = od.custid
+            AND address LIKE '%대한민국%'
+    );
+
+------------------------------------------------
+-- all, some
+-- 3번 고객이 주문한 도서의 판매가격
+
+SELECT
+    saleprice
+FROM
+    orders
+WHERE
+    custid LIKE 3;
+
+-- 3번 고객이 주문한 도서의 최고 가격 보다 더 비싼 도서를 구입한 주문번호와 판매가격을 보이시오
+
+-- and
+SELECT
+    orderid,
+    saleprice
+FROM
+    orders
+WHERE
+    saleprice > ALL (
+        SELECT
+            saleprice
+        FROM
+            orders
+        WHERE
+            custid LIKE 3
+    );
+
+SELECT
+    orderid,
+    saleprice
+FROM
+    orders
+WHERE
+    saleprice > ALL (
+        SELECT
+            saleprice
+        FROM
+            orders
+        WHERE
+            custid LIKE 3
+    );
+    
+
+-- 3번 고객이 주문한 도서의 판매가격 중 하나라도 더 비싼 도서를 구입한 주문번호와 판매가격을 보이시오
+-- or
+SELECT
+    orderid,
+    saleprice
+FROM
+    orders
+WHERE
+    saleprice > SOME (
+        SELECT
+            saleprice
+        FROM
+            orders
+        WHERE
+            custid LIKE 3
+    );
+    
+    
+    
+    
+    
+
 -- 집합연산
 -- 차집합(MINUS), 합집합(UNION), 교집합(INTERSECT)
 -- 도서를 주문하지 않은 고객의 이름을 보이시오

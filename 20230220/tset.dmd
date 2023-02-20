@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tset" id="9CBE639E-A2FB-8E7D-6A75-5D4371428057" version="3.5">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:11:36 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9CBE639E-A2FB-8E7D-6A75-5D4371428057</designId>
+</OSDM_Design>

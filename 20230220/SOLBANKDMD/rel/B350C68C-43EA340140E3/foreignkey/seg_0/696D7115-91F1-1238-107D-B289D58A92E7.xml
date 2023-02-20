@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="696D7115-91F1-1238-107D-B289D58A92E7" containerWithKeyObject="0F263B61-D5D6-A077-343D-E5DDF2E042C4" localFKIndex="E16BA64F-2143-1006-FB1D-C5ECE05B31F9" name="카드_고객_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:49:59 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<referredTableLongName>고객</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4E86661-BF53-EDD0-D9B5-9A82EC8813AD</referredTableID>
+<keyObject>81825EFF-036B-C5F1-D7DC-4FCAEB37349B</keyObject>
+<referredKeyID>81825EFF-036B-C5F1-D7DC-4FCAEB37349B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>고객주민번호</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

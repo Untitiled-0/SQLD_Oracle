@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71F2AAB3-A445-E3DE-D196-781778D870BB" name="강좌">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:17:45 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="강좌번호" id="F14EEEB6-9AB6-733C-DFCE-E285D2AD3936">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:18:33 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강좌명" id="15FE86C6-C126-8304-B628-D8DC329FC397">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:18:33 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="취득학점" id="D0AD980E-6D33-DEB0-4440-370CD9E51BB7">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:18:33 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="담당교수번호" id="093C1EE0-299B-2B68-23CF-70581E1C7970">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:18:33 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강의시간" id="F81C2D17-CCD0-3D17-6EB4-BD3955A6A057">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:18:33 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강의실" id="97006822-0874-B155-87AD-7999F543DC7B">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:18:33 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9944F6DD-2B43-892D-5B85-AC497E739142" name="강좌_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:18:33 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F14EEEB6-9AB6-733C-DFCE-E285D2AD3936"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

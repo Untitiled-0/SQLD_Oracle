@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4E86661-BF53-EDD0-D9B5-9A82EC8813AD" name="고객">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:36:44 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="고객주민번호" id="3BFF43F9-15F7-97DF-9AB6-FF2996D940E1">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:38:35 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객명" id="4C6BF246-4480-104B-C8AA-BC5043EDB5C2">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:38:35 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객생년월일" id="C2B0D9D0-4CC8-494D-F689-85F67DD0B636">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:38:35 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객이메일" id="E6F0F3B9-99E3-1580-4F6D-E1F6EE1F258C">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:38:35 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객전화번호" id="AAAD25FE-E2D6-F5D7-5209-5C65A5D540AA">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:38:35 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객직업" id="D8670611-13B6-D71A-DEDF-5E93D220FCA7">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:38:35 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81825EFF-036B-C5F1-D7DC-4FCAEB37349B" name="고객_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:38:35 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BFF43F9-15F7-97DF-9AB6-FF2996D940E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

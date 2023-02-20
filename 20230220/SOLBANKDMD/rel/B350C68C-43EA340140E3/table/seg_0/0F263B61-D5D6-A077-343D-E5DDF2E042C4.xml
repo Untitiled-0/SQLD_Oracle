@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F263B61-D5D6-A077-343D-E5DDF2E042C4" name="카드">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:41:57 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="카드ID" id="E2854DBA-CC18-BAEA-215F-D046167A93D7">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:43:57 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="카드신청일자" id="32800327-7B0A-7B69-121A-AE3631A46991">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:43:57 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="카드한도금액" id="FE828767-2E83-F2FA-237B-BB6B435671A4">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:43:57 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="카드결재일자" id="7A2E33AA-6C1C-8FF9-F01F-12659693DA25">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:43:57 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="카드종류" id="790B91AF-5360-E25F-7E4D-23C21FF6C8CD">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:43:57 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객주민번호" id="FD536387-C942-1F32-AC8B-483CF592285A">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:47:12 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="예금계좌ID" id="61E5D227-E920-6065-E67A-96BB53232E6B">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:47:34 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객_고객주민번호" id="05041A1A-07A0-41E3-BB61-F21080A823A3">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:49:59 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="696D7115-91F1-1238-107D-B289D58A92E7" referredColumn="3BFF43F9-15F7-97DF-9AB6-FF2996D940E1"/>
+</associations>
+</Column>
+<Column name="예금계좌_예금계좌ID" id="513C9980-B282-294D-8592-E0B2B8F44CB0">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:50:09 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6CA1F53-9316-AE4A-C539-9232F7BF2DDC" referredColumn="C8427A68-9CE3-8EBD-2A30-B8B4604AC7BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F481E706-3309-64CE-C480-59C84946E4CA" name="카드_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:43:57 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2854DBA-CC18-BAEA-215F-D046167A93D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E16BA64F-2143-1006-FB1D-C5ECE05B31F9" name="카드_고객_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:49:59 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05041A1A-07A0-41E3-BB61-F21080A823A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B338EFEE-6A0C-E607-DEE8-A5AB7A6BB5D3" name="카드_예금계좌_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:50:09 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513C9980-B282-294D-8592-E0B2B8F44CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

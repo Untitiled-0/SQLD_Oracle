@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C917EFD-4A14-5C2F-2705-91BDCED4DD55" schemaObject="11A7DACC-4A70-D37E-FC07-67167F73DB95" name="BOOK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<importedID>57119469-CB60-859C-04BD-4503FCEB68BE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOKID" id="3FC0BB5A-AE7C-EBFA-4C15-E7B3F80C66FF">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<importedID>3AAE1E72-D6EE-2C3F-66DD-A83E89B3624F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKNAME" id="5C003C6A-0FBE-E895-7DE5-B985CA623C50">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<importedID>C606B5C8-A8B0-6BB9-29AD-4F566ED7DA39</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISHER" id="7104063D-B170-ED25-A9B1-EAED0E31FBAA">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<importedID>6DB2DFF4-866A-F120-1E42-5A6649780924</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="5EBCDFEE-8001-EE1C-8719-EBA0D3824BA8">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<importedID>BF68691D-B6C7-8D35-AA28-3C4980075627</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B19364F-8BD7-51C3-8A7D-9E4F5BF47DC8" schemaObject="11A7DACC-4A70-D37E-FC07-67167F73DB95" name="BOOK_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<importedID>E55CBEAD-10D4-1506-F68B-DD8368104F1B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC0BB5A-AE7C-EBFA-4C15-E7B3F80C66FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FEA69A6-ED83-0553-8A11-7A4EE2977EFA" name="교수">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:15:05 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="교수번호" id="957208A9-A9C1-2958-81CC-9BEF3961CDD5">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="학과번호" id="319A7408-E087-26C8-025C-7CB22E5D9450">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강좌번호" id="8EC7D635-AF20-656B-32E2-64C021DE35F5">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주민번호" id="D5E5C8D8-E0FA-866C-FAC3-9CD059C00B07">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주소" id="5EF7B6CF-28B0-80A0-1C88-4498FF9768B0">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="교수이름" id="F1F1DE38-FB84-A353-FBD4-53CDD777FFC7">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="8410D56D-9722-48B2-1D0C-CD2C437F61B5">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="이메일" id="FE62F967-63E0-2723-9EAA-BDCB404B91A8">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="사진" id="E659A8CB-9196-9774-0BA2-B9B5A5AC9690">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강좌_강좌번호" id="4BFD1F5A-133B-A8F2-6C0B-8F160FE9D351">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:20:02 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA4ED7B7-1B1A-0B3A-8908-A608FA374258" referredColumn="F14EEEB6-9AB6-733C-DFCE-E285D2AD3936"/>
+</associations>
+</Column>
+<Column name="학과_학과번호" id="7FC96240-9232-148D-5A73-B3E85561480B">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:21:14 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DF7ED2C-FE52-63DE-7AF0-9F52ACFB865E" referredColumn="FBBDD755-1040-6365-6CFC-17D4A6FF3884"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53E377AF-FD2A-BAEF-E8B6-8F8645ADA01C" name="교수_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:16:42 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="957208A9-A9C1-2958-81CC-9BEF3961CDD5"/>
+<colUsage columnID="319A7408-E087-26C8-025C-7CB22E5D9450"/>
+<colUsage columnID="8EC7D635-AF20-656B-32E2-64C021DE35F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22C92865-8CC8-B91D-C298-2118382BA29A" name="교수_강좌_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:20:02 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BFD1F5A-133B-A8F2-6C0B-8F160FE9D351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="601FA7FB-9C6B-DF42-5EB8-6BBE448B3E72" name="교수_학과_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:21:14 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC96240-9232-148D-5A73-B3E85561480B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

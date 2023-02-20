@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C63374C0-CDA2-CFAB-0A22-A8DCB2001253" containerWithKeyObject="E33B9A23-1917-7DE1-5C7D-E79D96C42D6C" localFKIndex="E7911093-0B25-9B59-5EB9-C67A00959596" name="예금계좌거래내역_예금계좌_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:49:53 UTC</createdTime>
+<ownerDesignName>SOLBANKDMD</ownerDesignName>
+<referredTableLongName>예금계좌</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A240569-3E8D-B172-8DA1-EFFB4403B513</referredTableID>
+<keyObject>D4A90C8D-9AC7-2A49-27AC-7FFE35530FE1</keyObject>
+<referredKeyID>D4A90C8D-9AC7-2A49-27AC-7FFE35530FE1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>예금계좌ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

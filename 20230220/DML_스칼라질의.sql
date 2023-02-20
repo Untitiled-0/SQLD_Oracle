@@ -46,9 +46,15 @@ GROUP by cs.name;
 -- 스칼라 질의
 
 select od.custid, (select name from customer cs
-                        where cs.custid = od.custid and cs.custid <=2 ) as name, sum(saleprice)
+                        where cs.custid = od.custid) as name, sum(saleprice) total
 
 from orders od
-GROUP by od.custid
-order by custid;
+where  od.custid <=2 
+GROUP by od.custid;
 
+
+-- 주문 내역이 있는 고객 아이디별
+select od.custid,(select cs.address from customer cs
+                        where od.custid = cs.custid) as address, sum(saleprice) total
+from orders od
+group by od.custid;

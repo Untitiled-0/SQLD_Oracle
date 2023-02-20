@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="45A5D0C2-47A6-7022-C20E-9D20FE076881" containerWithKeyObject="35D1BB4D-5769-EAB7-0322-2E19A0FC43D5" localFKIndex="21BEE3E0-E1B6-A74D-9203-4BDDE729C204" name="학생_학과_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 08:21:07 UTC</createdTime>
+<ownerDesignName>tset</ownerDesignName>
+<referredTableLongName>학과</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>514165D6-B1D6-7A8D-35B9-45F0D6ECBAB0</referredTableID>
+<keyObject>6FCC8D09-7295-18D7-5BA0-6A56E386B55F</keyObject>
+<referredKeyID>6FCC8D09-7295-18D7-5BA0-6A56E386B55F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>학과번호</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

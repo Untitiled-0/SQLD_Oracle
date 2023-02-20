@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BookERD" id="27237410-BDA4-C300-DED2-0B5B634ECA4F" version="3.5">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 04:01:26 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>27237410-BDA4-C300-DED2-0B5B634ECA4F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4A1D526E-4CD2-70D5-9FAA-9AB83A4DC0CE">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

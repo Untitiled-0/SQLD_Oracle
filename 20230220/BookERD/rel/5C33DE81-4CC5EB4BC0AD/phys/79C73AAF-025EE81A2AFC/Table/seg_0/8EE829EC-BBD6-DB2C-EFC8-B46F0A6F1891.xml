@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ORDERS" directorySegmentName="seg_0" id="8EE829EC-BBD6-DB2C-EFC8-B46F0A6F1891">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<schemaObject>11A7DACC-4A70-D37E-FC07-67167F73DB95</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8050EA42-4172-2EBD-B657-724D65026919</segment>
+<tableSpace>B22B4551-64EC-A6BA-FBB5-E5C503FA4215</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SALEPRICE" id="225B60BC-0FD1-2546-F7CE-4A946B405B48">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTID" id="681297CB-AF93-1327-B517-9DDD2D90B5CD">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERDATE" id="7BD219D2-95FB-D39A-A587-8B708E6D7B75">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERID" id="89D0165C-A9B9-CF51-AF26-ECF11E7665D4">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKID" id="F5C9A341-B6F3-2F98-7C0D-DC13D6763418">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007550" id="F2331A5F-4507-92E5-D846-2419E1A74AFA">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007549" id="F5252AC3-6DD5-D243-5C6B-C0EEAAF54E26">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDERS_PK" id="288BE925-858B-7395-7CBF-A6AB0276418B">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:53:50 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<schemaObject>11A7DACC-4A70-D37E-FC07-67167F73DB95</schemaObject>
+<segment>139B638C-CE5F-8BDE-A0D9-12825F62E113</segment>
+<tableSpace>B22B4551-64EC-A6BA-FBB5-E5C503FA4215</tableSpace>
+<indexSegment>139B638C-CE5F-8BDE-A0D9-12825F62E113</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F56DDE2C-02C0-BD6E-A592-D19186FEECDA" mainViewID="0720B490-A370-C500-0512-450468C913FC">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 04:01:55 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>MD_MADANG</connName>
+<connUser>MADANG</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC8CF5A5-C227-F2D8-F7F2-51015BCEB787" name="예금계좌_거래내역">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:08:54 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="예금계좌ID" id="9B020019-2FF3-EB16-AA8E-B0AB1EF504D3">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:00 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="입출금날짜" id="D8E8F5C8-6763-EE98-3E03-EC126250410F">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:00 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="거래번호" id="F074923C-B67E-0306-0F5E-2048503923F8">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:00 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="예금구분" id="47146822-8047-598D-94C5-8D3EB8B8F475">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:00 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="예금내용" id="EFE71AF7-55F2-415E-E4E4-B06FE58F982C">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:00 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="거래금액" id="28822526-A857-5A1C-3B5D-7B226789AC5C">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:00 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="예금잔고" id="B9F02E8A-8F8C-0E52-C042-AF42F68641C8">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:00 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="예금계좌_예금계좌ID" id="FDEE42F3-5AD4-ED93-32AE-398BDE5E8234">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:13:21 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2176ABAF-4BB4-E33A-14E4-6EE8CF8AD7CA" referredColumn="89B77ACF-B977-C766-2D78-46A47FEB9AA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D81E35F-8C04-9721-3F00-6732EF365846" name="예금계좌_거래내역_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:11:14 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B020019-2FF3-EB16-AA8E-B0AB1EF504D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC40B1FA-8771-9335-C5DA-41A62833EC08" name="예금계좌_거래내역_예금계좌_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 07:13:21 UTC</createdTime>
+<ownerDesignName>BankErd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDEE42F3-5AD4-ED93-32AE-398BDE5E8234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

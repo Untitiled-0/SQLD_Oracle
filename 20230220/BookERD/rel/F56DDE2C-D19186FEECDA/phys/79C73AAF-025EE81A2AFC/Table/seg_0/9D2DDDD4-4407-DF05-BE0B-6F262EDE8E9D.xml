@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="BOOK" directorySegmentName="seg_0" id="9D2DDDD4-4407-DF05-BE0B-6F262EDE8E9D">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:52:22 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<schemaObject>38B7FD87-96BB-5D40-E121-491015E24F36</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>05F48AAB-5D24-C99C-6216-83EF38230E6D</segment>
+<tableSpace>69BC51C4-11E7-D8F8-F213-7EC3C5E0B34E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PUBLISHER" id="658568D5-A142-BB8B-838E-F2499B318234">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:52:23 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="6FB1FD6A-4F7D-8C4F-DBB1-9A182F9A179C">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:52:23 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKID" id="AE10AC17-C38D-DF0F-F4DB-E4D2504EBB20">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:52:23 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKNAME" id="F8E8F458-A746-EF22-1FD3-05728B0B2251">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:52:23 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOK_PK" id="CA01B3BF-F677-C54B-6660-D7E1D154E388">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-20 05:52:23 UTC</createdTime>
+<ownerDesignName>BookERD</ownerDesignName>
+<schemaObject>38B7FD87-96BB-5D40-E121-491015E24F36</schemaObject>
+<segment>5798D4D8-0157-456C-BF81-E92FFCFABEB4</segment>
+<tableSpace>69BC51C4-11E7-D8F8-F213-7EC3C5E0B34E</tableSpace>
+<indexSegment>5798D4D8-0157-456C-BF81-E92FFCFABEB4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
