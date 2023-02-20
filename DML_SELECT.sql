@@ -1,0 +1,50 @@
+-- SELECT FROM WHERE
+-- 모든 도서의 이름과 가격을 보이시오
+
+SELECT * FROM BOOK;
+
+
+SELECT BOOKNAME, PRICE FROM BOOK;
+
+SELECT publisher FROM BOOK;
+
+-- 중복되는 데이터 제거 키워드 (DINSTINCT)
+
+SELECT DISTINCT PUBLISHER
+FROM BOOK;
+
+-- WHERE 
+SELECT * FROM BOOK
+WHERE PRICE <= 8000;
+
+SELECT * FROM BOOK
+WHERE PRICE BETWEEN 10000 AND 20000 ;
+
+-- 집합
+
+SELECT * FROM BOOK
+WHERE publisher NOT IN ('굿스포츠','대한미디어');
+
+-- 패턴
+
+SELECT BOOKNAME, PUBLISHER
+FROM BOOK
+WHERE BOOKNAME LIKE '축구의 역사';
+
+
+SELECT BOOKNAME, PUBLISHER
+FROM BOOK
+WHERE BOOKNAME LIKE '_구%';
+
+
+-- 축구에 관한 도서 중 가격이 2만원 이상
+
+SELECT BOOKNAME, PUBLISHER, PRICE
+FROM BOOK
+WHERE BOOKNAME LIKE '%축구%' AND PRICE >=20000;
+
+-- 출판사가 '굿스포츠' 혹은 '대한미디어'인 도서를 검색하시오
+
+SELECT * FROM BOOK
+WHERE publisher IN ('굿스포츠','대한미디어');
+
