@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BC71146-B30D-D7BB-62CE-41FD55D8FE92" name="상영관">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:01:25 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="상영관번호" id="3243EEF3-43AB-55F6-05F5-9623D8CDA9A4">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:02:39 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="극장번호" id="0FCFF92B-B7BB-E102-59E3-0701E43DD620">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:02:39 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93A231CB-FEFF-C6D7-9160-CA4738AB558E" referredColumn="3616E198-FAF2-D12C-DEF4-2D1B15B0F9E8"/>
+</associations>
+</Column>
+<Column name="영화제목" id="98310402-52F0-4958-FF95-787FB6BBA9C9">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:02:39 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="가격" id="DEC096A5-243A-8AC8-86D0-2EAA35CB337C">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:02:39 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="좌석수" id="68F004A8-A0B5-2C9F-5089-ECBECB8EEC64">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:02:39 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="468311DA-DFD6-162D-0957-266F52BCA895" name="상영관_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:02:50 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3243EEF3-43AB-55F6-05F5-9623D8CDA9A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25850991-7EF1-1E1E-C02C-6B0F3B524ACB" name="상영관_극장_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:10:58 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FCFF92B-B7BB-E102-59E3-0701E43DD620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

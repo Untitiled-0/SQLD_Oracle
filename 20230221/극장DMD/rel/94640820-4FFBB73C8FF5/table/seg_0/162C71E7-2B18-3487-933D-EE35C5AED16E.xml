@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="162C71E7-2B18-3487-933D-EE35C5AED16E" name="극장">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:00:21 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="극장번호" id="3616E198-FAF2-D12C-DEF4-2D1B15B0F9E8">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:01:16 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="극장이름" id="64A62FDA-1061-300A-089F-5A009F2B5D83">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:01:16 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="위치" id="65D6F5E2-3F30-AB2F-5167-0FD797D052B1">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:01:16 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95A3B02C-3C83-A62C-D206-2EACB7813472" name="극장_PK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:02:46 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3616E198-FAF2-D12C-DEF4-2D1B15B0F9E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

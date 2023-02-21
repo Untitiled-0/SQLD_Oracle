@@ -23,17 +23,19 @@
 <createdBy>soldesk</createdBy>
 <createdTime>2023-02-20 08:14:15 UTC</createdTime>
 <ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="학과번호" id="3BA47A63-3BA8-AD8B-ED16-13C26945D556">
 <createdBy>soldesk</createdBy>
 <createdTime>2023-02-20 08:14:15 UTC</createdTime>
 <ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -45,6 +47,7 @@
 <createdBy>soldesk</createdBy>
 <createdTime>2023-02-20 08:14:15 UTC</createdTime>
 <ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -157,43 +160,14 @@
 <ownerDesignName>tset</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E9E28FA0-AF58-C55A-3D4F-505D3C4E899A" referredColumn="957208A9-A9C1-2958-81CC-9BEF3961CDD5"/>
-</associations>
-</Column>
-<Column name="교수_학과번호" id="40621551-4773-5690-7DE3-53E0AED5A20C">
-<createdBy>soldesk</createdBy>
-<createdTime>2023-02-20 08:26:00 UTC</createdTime>
-<ownerDesignName>tset</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E9E28FA0-AF58-C55A-3D4F-505D3C4E899A" referredColumn="319A7408-E087-26C8-025C-7CB22E5D9450"/>
-</associations>
-</Column>
-<Column name="교수_강좌번호" id="BDC8677C-8F48-A40C-90F5-6D40645CA879">
-<createdBy>soldesk</createdBy>
-<createdTime>2023-02-20 08:26:00 UTC</createdTime>
-<ownerDesignName>tset</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E9E28FA0-AF58-C55A-3D4F-505D3C4E899A" referredColumn="8EC7D635-AF20-656B-32E2-64C021DE35F5"/>
 </associations>
 </Column>
 </columns>
@@ -207,9 +181,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F16E73BB-D9DC-7698-56C8-762433EB7434"/>
-<colUsage columnID="7B62ACD1-55BD-E665-3753-ED3400215F6E"/>
-<colUsage columnID="3BA47A63-3BA8-AD8B-ED16-13C26945D556"/>
-<colUsage columnID="04432A8D-DD2C-0BD7-8B1A-6E4560795DDA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="21BEE3E0-E1B6-A74D-9203-4BDDE729C204" name="학생_학과_FK">
@@ -230,8 +201,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5181E8AA-D1E5-5C64-F96C-1A1C465C6C1D"/>
-<colUsage columnID="40621551-4773-5690-7DE3-53E0AED5A20C"/>
-<colUsage columnID="BDC8677C-8F48-A40C-90F5-6D40645CA879"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

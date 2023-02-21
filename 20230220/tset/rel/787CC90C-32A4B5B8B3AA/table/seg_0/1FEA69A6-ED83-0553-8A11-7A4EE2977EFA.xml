@@ -14,15 +14,16 @@
 <ownerDesignName>tset</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="학과번호" id="319A7408-E087-26C8-025C-7CB22E5D9450">
 <createdBy>soldesk</createdBy>
 <createdTime>2023-02-20 08:16:42 UTC</createdTime>
 <ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -34,6 +35,7 @@
 <createdBy>soldesk</createdBy>
 <createdTime>2023-02-20 08:16:42 UTC</createdTime>
 <ownerDesignName>tset</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -154,8 +156,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="957208A9-A9C1-2958-81CC-9BEF3961CDD5"/>
-<colUsage columnID="319A7408-E087-26C8-025C-7CB22E5D9450"/>
-<colUsage columnID="8EC7D635-AF20-656B-32E2-64C021DE35F5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="22C92865-8CC8-B91D-C298-2118382BA29A" name="교수_강좌_FK">

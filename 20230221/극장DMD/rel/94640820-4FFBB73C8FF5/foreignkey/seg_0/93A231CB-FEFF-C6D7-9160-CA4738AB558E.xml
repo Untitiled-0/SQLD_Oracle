@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93A231CB-FEFF-C6D7-9160-CA4738AB558E" containerWithKeyObject="8BC71146-B30D-D7BB-62CE-41FD55D8FE92" localFKIndex="25850991-7EF1-1E1E-C02C-6B0F3B524ACB" name="상영관_극장_FK">
+<createdBy>soldesk</createdBy>
+<createdTime>2023-02-21 01:10:58 UTC</createdTime>
+<ownerDesignName>극장DMD</ownerDesignName>
+<referredTableLongName>극장</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>162C71E7-2B18-3487-933D-EE35C5AED16E</referredTableID>
+<keyObject>95A3B02C-3C83-A62C-D206-2EACB7813472</keyObject>
+<referredKeyID>95A3B02C-3C83-A62C-D206-2EACB7813472</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>극장번호</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
