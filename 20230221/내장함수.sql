@@ -14,6 +14,12 @@ from orders
 group by custid;
 
 
+select * from employees;
+
+order by employees_id;
+
+
+
 -- 문자함수
 select * from book;
 select bookid, replace(bookname, '야구', '농구') bookname, publisher
