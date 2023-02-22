@@ -46,8 +46,9 @@ alter user system identfied by 12345;
  drop user 삭제할 계정명;
 */
 
-create user test IDENTIFIED by 12345;
+create user test identified by 12345;
 grant connect, resource to test; --등록 권한 부여
+grant create table, create view, create SEQUENCE to test;
 alter user test default tablespace users quota unlimited on users; --물리적 공간
 drop user test; --삭제
 

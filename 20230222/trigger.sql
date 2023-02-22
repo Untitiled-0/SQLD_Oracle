@@ -8,6 +8,7 @@ CREATE TABLE Book_log(
 
 select * from book_log;
 
+DROP TABLE Book_Log;
 ----------------------------------
 create or replace trigger AfterInsertBook
 -- insert문을 이용하여 book테이블에 트리거 자동 생성
@@ -22,6 +23,6 @@ begin
 end;
 /
 
+set serverout on;
 insert into book values(35,'야구의 신','이상미디어',27000);
 select * from book where bookid = 35;
-select * from book_log;
